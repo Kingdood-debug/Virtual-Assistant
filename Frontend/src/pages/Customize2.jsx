@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { IoMdArrowRoundBack } from "react-icons/io";
 
-import { userDataContext } from "../context/userContext";
+import { userDataContext } from "../context/UserContext";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 const Customize2 = () => {
