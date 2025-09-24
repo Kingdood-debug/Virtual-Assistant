@@ -16,7 +16,7 @@ const app = express();
 //accessing Port
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://virtual-assistant-f-0rmc.onrender.com",
     credentials: true,
   })
 );
